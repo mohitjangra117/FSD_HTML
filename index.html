@@ -10,63 +10,85 @@
             margin: 0;
             padding: 0;
         }
-        
+
         /* Apply a background color, font, and padding */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Georgia', serif;
+            background-color: #fafafa;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            padding: 20px;
         }
 
-        /* Style the container (centered content) */
+        /* Style the container for the index */
         .container {
-            text-align: center;
+            text-align: left;
             background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 40px;
-            width: 80%;
-            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 30px 40px;
+            width: 100%;
+            max-width: 600px;
+            border: 1px solid #ddd;
         }
 
         /* Style for the main header */
         h1 {
-            font-size: 2.5em;
-            color: #333;
-            margin-bottom: 20px;
+            font-size: 2.8em;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* Style the section with the links */
+        .links {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        /* Style for each link item */
+        .links li {
+            margin: 15px 0;
+            font-size: 1.3em;
         }
 
         /* Style the link */
         a {
-            font-size: 1.2em;
-            color: #007bff;
             text-decoration: none;
-            padding: 10px 20px;
+            color: #2980b9;
+            padding: 10px 15px;
             border-radius: 5px;
-            background-color: #f0f8ff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #ecf0f1;
+            display: inline-block;
+            width: 100%;
             transition: all 0.3s ease;
         }
 
         /* Hover effect for the link */
         a:hover {
-            background-color: #0056b3;
+            background-color: #3498db;
             color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Index of Contents</h1>
-        <a href="viewport.html">Viewport</a>
-        <a href="Auto_margin.html" >Auto_margin</a>
-        <a href="iframe.html" >Iframe</a>
-
+        <ul class="links">
+            <li><a href="viewport.html">Viewport</a></li>
+            <li><a href="Auto_margin.html">Auto Margin</a></li>
+            <li><a href="iframe.html">Iframe</a></li>
+            <li><a href="Text_Align_Justify.html">Text Align: Justify</a></li>
+        </ul>
     </div>
 </body>
 </html>
