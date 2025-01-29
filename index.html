@@ -16,11 +16,8 @@
             font-family: 'Georgia', serif;
             background-color: #fafafa;
             color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             padding: 20px;
+            box-sizing: border-box; /* Ensure padding doesn't affect the layout */
         }
 
         /* Style the container for the index */
@@ -32,12 +29,12 @@
             padding: 30px 40px;
             width: 100%;
             max-width: 600px;
-            border: 1px solid #ddd;
+            margin: 0 auto; /* Center the content horizontally */
         }
 
         /* Style for the main header */
         h1 {
-            font-size: 2.8em;
+            font-size: 2.5em;
             color: #2c3e50;
             margin-bottom: 30px;
             text-align: center;
@@ -55,27 +52,27 @@
         /* Style for each link item */
         .links li {
             margin: 15px 0;
-            font-size: 1.3em;
         }
 
         /* Style the link */
         a {
             text-decoration: none;
             color: #2980b9;
-            padding: 10px 15px;
+            padding: 12px 20px;
             border-radius: 5px;
             background-color: #ecf0f1;
-            display: inline-block;
+            display: block;
             width: 100%;
             transition: all 0.3s ease;
+            font-size: 1.2em;
         }
 
         /* Hover effect for the link */
         a:hover {
             background-color: #3498db;
             color: white;
-            transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
     </style>
@@ -90,7 +87,7 @@
             <li><a href="Text_Align_Justify.html">Text Align: Justify</a></li>
             <li><a href="Emoji.html">Emoji</a></li>
             <li><a href="inherit.html">Inherit</a></li>
-            <li><a href="Table_collapse.html">Table_collapse</a></li>
+            <li><a href="Table_collapse.html">Table Collapse</a></li>
             <li><a href="Audio.html">Audio</a></li>
             <li><a href="Text_transform.html">Text Transform</a></li>
             <li><a href="Background_img.html">Background Image</a></li>
@@ -99,7 +96,6 @@
             <li><a href="Label_Radio.html">Label and Radio</a></li>
             <li><a href="Best_fonts.html">Best Fonts</a></li>
             <li><a href="Neon_font.html">Neon Fonts</a></li>
-             
         </ul>
     </div>
 </body>
